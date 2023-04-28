@@ -14,7 +14,7 @@ int main()
 	std::cout << "[Входные данные]: ";
 	std::for_each(array_angle.begin(), array_angle.end(), [&](int tmp) {
 		angles.push_back(tmp * 3.1415926 / 180);
-		std::cout << tmp << " * 3.1415926 / 180 ";
+		std::cout << tmp << " * 3.1415926 / 180, ";
 		});
 	std::cout << std::endl;
 
